@@ -3,19 +3,15 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Kanit", sans-serif;
-    
 }
-
 .background-image {
     z-index: -1;
     position: fixed;
     width: 100vw;
     height: 100vh;
-
 }
 header {
     background-color: #f1a0ddc4;
-
 }
 .home {
     display: flex;
@@ -46,7 +42,6 @@ header {
 }
 h1 {
     font-size: 50px;
-    
 }
 h2 {
     font-size: 25px;
