@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kanit", sans-serif;
+    
+}
+
+.background-image {
+    z-index: -1;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+
+}
+header {
+    background-color: #f1a0ddc4;
+
+}
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    top: -15px;
+}
+.botão-home {
+    width: 170px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    background-color: #FF69B4;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 17px;
+}
+.icone-mag {
+    position: fixed;
+    top: 315px;
+    left: 230px;
+    
+}
+.icone {
+    width: 250px;
+}
+h1 {
+    font-size: 50px;
+    
+}
+h2 {
+    font-size: 25px;
+}
+.rodapé {
+    position: relative;
+    display: flex;
+    font-size: 14px;
+    top: 265px;
+    left: 20px;
+    width: 300px;
+    height: 200px;
+    margin-left: 10px;
+}
+.list-one {
+    margin-right: 25px;
+}
