@@ -9,8 +9,8 @@ body {
     position: fixed;
     width: 100vw;
     height: 100vh;
-    background-size: cover;
     background-image: url(https://i.pinimg.com/564x/d8/62/78/d86278955da0973e3b1ccd8207497cae.jpg);
+    background-size: cover;
 }
 .text-header {
     display: inline-block;
@@ -108,4 +108,26 @@ h2 {
 }
 .list-one {
     margin-right: 25px;
+}
+
+@media screen and (max-width: 600px) {
+    .rodapé {
+        top: 540px;
+    }
+    .icone {
+        top: 365px;
+    }
+    #galery-one {
+        top: 15px;
+    }
+    #galery-two {
+        top: 25px;
+    }
+    .home-image {
+        height: 20vh;
+    }
+    .home-image:hover {
+        height: 25vh;
+        width: 25vw;
+    }
 }
