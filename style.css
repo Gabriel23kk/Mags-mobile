@@ -4,14 +4,26 @@
     box-sizing: border-box;
     font-family: "Kanit", sans-serif;
 }
-.background-image {
-    z-index: -1;
+body {
+    z-index: -9;
     position: fixed;
     width: 100vw;
     height: 100vh;
+    background-image: url(https://i.pinimg.com/564x/d8/62/78/d86278955da0973e3b1ccd8207497cae.jpg);
+    background-size: cover;
 }
-header {
-    background-color: #f1a0ddc4;
+.text-header {
+    display: inline-block;
+    position: relative;
+    top: -15px;
+    left: 10px;
+    color: #242324;
+    font-size: 18px;
+}
+.insta {
+    position: relative;
+    left: 10px;
+    
 }
 .home {
     display: flex;
@@ -30,32 +42,92 @@ header {
     cursor: pointer;
     margin-top: 10px;
     font-size: 17px;
-}
-.icone-mag {
-    position: fixed;
-    top: 315px;
-    left: 230px;
     
 }
+.work {
+    font-size: 13px;
+}
+.botão-home:active {
+    width: 180px;
+    height: 50px;
+    transition: 0.6s;
+}
+#link-chame{
+    text-decoration: none;
+    color: inherit;
+}
+.home-image {
+    width: 22vw;
+    height: 13vh;
+    border-radius: 60px;
+
+}
+.home-image:hover {
+    width: 30vw;
+    height: 18vh;
+}
+.galery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#galery-one {
+    position: relative;
+    bottom: 13px;
+    top: 0px;
+}
+#galery-two {
+    position: relative;
+    top: 10px;
+    z-index: 99;
+}
+
+.icone-mag {
+    position: fixed;
+    z-index: 5;
+}
 .icone {
-    width: 250px;
+    width: 60%;
+    position: fixed;
+    top: 345px;
+    left: 215px;
 }
 h1 {
-    font-size: 50px;
+    font-size: 45px;
 }
 h2 {
-    font-size: 25px;
+    font-size: 20px;
 }
 .rodapé {
-    position: relative;
+    position: fixed;
     display: flex;
     font-size: 14px;
-    top: 265px;
-    left: 20px;
-    width: 300px;
-    height: 200px;
-    margin-left: 10px;
+    margin-left: 20px;
+    top: 510px;
 }
 .list-one {
     margin-right: 25px;
+}
+
+@media screen and (max-width: 600px) {
+    .rodapé {
+        top: 540px;
+    }
+    .icone {
+        top: 365px;
+    }
+    #galery-one {
+        top: 15px;
+    }
+    #galery-two {
+        top: 25px;
+    }
+    .home-image {
+        height: 20vh;
+    }
+    .home-image:hover {
+        height: 25vh;
+        width: 25vw;
+    }
 }
