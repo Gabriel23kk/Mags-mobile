@@ -8,7 +8,7 @@ body {
     z-index: -9;
     position: fixed;
     width: 100vw;
-    height: 100vh;
+    height: 200vh;
     background-image: url(https://i.pinimg.com/564x/d8/62/78/d86278955da0973e3b1ccd8207497cae.jpg);
     background-size: cover;
 }
@@ -85,7 +85,7 @@ body {
 
 .icone-mag {
     position: fixed;
-    z-index: 5;
+    z-index: -99;
 }
 .icone {
     width: 60%;
@@ -110,24 +110,56 @@ h2 {
     margin-right: 25px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-height: 600px) {
     .rodapé {
-        top: 540px;
+        top: 602px;
+        position: sticky;
     }
     .icone {
-        top: 365px;
+        top: 196px;
+       position: relative;
     }
     #galery-one {
         top: 15px;
     }
+    
     #galery-two {
         top: 25px;
     }
     .home-image {
         height: 18vh;
+        width: 24vw;
     }
     .home-image:hover {
         height: 25vh;
-        width: 25vw;
+        width: 34vw;
     }
 }
+
+@media screen and (min-height: 896px) {
+    .rodapé {
+        top: 830px;
+        font-size: 15px;
+        position: sticky;
+    }
+    .icone {
+        width: 65%;
+        position: relative;
+        top: 405px;
+        
+    }
+    #galery-one {
+        top: 140px;
+    }
+    #galery-two {
+        top: 150px;
+    }
+    .home {
+        top: 30px;
+    }
+    .home-image:hover {
+        height: 25vh;
+        width: 35vw;
+    }
+}
+
