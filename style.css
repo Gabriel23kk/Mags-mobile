@@ -4,12 +4,11 @@
     box-sizing: border-box;
     font-family: "Kanit", sans-serif;
 }
-body {
+.fundo {
     z-index: -9;
     position: fixed;
     width: 100vw;
-    height: 200vh;
-    background-image: url(https://i.pinimg.com/564x/d8/62/78/d86278955da0973e3b1ccd8207497cae.jpg);
+    height: 100vh;
     background-size: cover;
 }
 .text-header {
@@ -85,7 +84,7 @@ body {
 
 .icone-mag {
     position: fixed;
-    z-index: -99;
+    z-index: -2;
 }
 .icone {
     width: 60%;
@@ -110,10 +109,10 @@ h2 {
     margin-right: 25px;
 }
 
-@media screen and (min-height: 600px) {
+@media screen and (max-height: 812px) {
     .rodapé {
-        top: 580px;
-        position: sticky;
+        top: 105px;
+        position: relative;
     }
     .icone {
         top: 170px;
@@ -135,56 +134,13 @@ h2 {
         width: 34vw;
     }
 }
-@media screen and (min-height: 844px) {
-    
+@media (min-width: 414px){
     .rodapé{
-        top: 775px;
-        font-size: 15px;
+        position: fixed;
+        top: 660px;
     }
-    .icone {
-        top: 375px;
-        left: 230px;
-    }
-    #galery-one{
-        top: 90px;
-    }
-    #galery-two{
-        top: 100px;
+    .icone{
+        top: 250px;
+        left: 245px;
     }
 }
-@media screen and (min-height: 896px) {
-    .rodapé {
-        top: 770px;
-        font-size: 15px;
-        position: sticky;
-    }
-    .icone {
-        width: 65%;
-        position: relative;
-        top: 350px;
-        left: 240px;
-        
-    }
-    #galery-one {
-        top: 140px;
-    }
-    #galery-two {
-        top: 150px;
-    }
-    .home {
-        top: 30px;
-    }
-    .home-image:hover {
-        height: 25vh;
-        width: 35vw;
-    }
-}
-@media screen and (min-height: 932px) {
-    .rodapé{
-        top: 860px;
-    }
-    .icone {
-        top: 430px;
-    }
-}
-
