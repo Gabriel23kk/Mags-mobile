@@ -135,7 +135,23 @@ h2 {
         width: 34vw;
     }
 }
-
+@media screen and (min-height: 844px) {
+    
+    .rodapé{
+        top: 775px;
+        font-size: 15px;
+    }
+    .icone {
+        top: 375px;
+        left: 230px;
+    }
+    #galery-one{
+        top: 90px;
+    }
+    #galery-two{
+        top: 100px;
+    }
+}
 @media screen and (min-height: 896px) {
     .rodapé {
         top: 830px;
@@ -160,6 +176,14 @@ h2 {
     .home-image:hover {
         height: 25vh;
         width: 35vw;
+    }
+}
+@media screen and (min-height: 932px) {
+    .rodapé{
+        top: 860px;
+    }
+    .icone {
+        top: 440px;
     }
 }
 
