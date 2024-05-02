@@ -112,11 +112,11 @@ h2 {
 
 @media screen and (min-height: 600px) {
     .rodapé {
-        top: 602px;
+        top: 580px;
         position: sticky;
     }
     .icone {
-        top: 196px;
+        top: 170px;
        position: relative;
     }
     #galery-one {
@@ -154,14 +154,15 @@ h2 {
 }
 @media screen and (min-height: 896px) {
     .rodapé {
-        top: 830px;
+        top: 770px;
         font-size: 15px;
         position: sticky;
     }
     .icone {
         width: 65%;
         position: relative;
-        top: 405px;
+        top: 350px;
+        left: 240px;
         
     }
     #galery-one {
@@ -183,7 +184,7 @@ h2 {
         top: 860px;
     }
     .icone {
-        top: 440px;
+        top: 430px;
     }
 }
 
