@@ -144,3 +144,26 @@ h2 {
         left: 245px;
     }
 }
+
+@media (max-width: 268px){
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 15px;
+    }
+    .text {
+        font-size: 12px;
+    }
+    .rodapé{
+        font-size: 10px;
+        top: 465px;
+        position: fixed;
+    }
+    .icone{
+        position: fixed;
+        top: 340px;
+        left: 150px;
+        
+    }
+}
