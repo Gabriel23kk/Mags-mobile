@@ -99,7 +99,7 @@
     z-index: -2;
 }
 .icone {
-    width: 60%;
+    width: 50%;
     position: fixed;
     top: 345px;
     left: 215px;
@@ -145,6 +145,9 @@ h2 {
         height: 25vh;
         width: 34vw;
     }
+    .balao{
+        top: 290px;
+    }
 }
 @media (min-width: 414px){
     .rodapé{
@@ -152,9 +155,14 @@ h2 {
         top: 665px;
     }
     .icone{
-        top: 250px;
-        left: 245px;
+        top: 230px;
+        left: 275px;
     }
+    .balao{
+        top: 350px;
+        left: 225px;
+    }
+
 }
 
 @media (max-width: 376px){
@@ -169,13 +177,14 @@ h2 {
     }
     .rodapé{
         font-size: 15px;
-        top: 550px;
-        position: fixed;
+        top: 130px;
+        position: relative;
     }
     .icone{
-        position: fixed;
-        top: 380px;
-        left: 220px;
+        position: relative;
+        top: 185px;
+        left: 230px;
         
     }
 }
+
