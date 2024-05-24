@@ -152,10 +152,10 @@ h2 {
 @media (min-width: 410px){
     .rodapé{
         position: fixed;
-        top: 665px;
+        top: 645px;
     }
     .icone{
-        top: 220px;
+        top: 240px;
         left: 275px;
     }
     .balao{
